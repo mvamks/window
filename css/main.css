@@ -1,0 +1,16 @@
+.tab-content {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+.tab-content.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.tab-content.hide {
+  opacity: 0;
+  pointer-events: none;
+}

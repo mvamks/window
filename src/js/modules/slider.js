@@ -1,3 +1,5 @@
+/* import { all } from "core-js/fn/promise"; */
+
 const getSlider = (container, firstImageSrc) => {
 
     // Создаём контейнер для слайдера
@@ -41,10 +43,10 @@ const getSlider = (container, firstImageSrc) => {
     let slideIndex = images.findIndex(src => src === firstImageSrc);
     const slides = slider.querySelectorAll('img');
 
-    const updateSlider = () => {
+    const updateSlider = () => {       
         slides.forEach((img, i) => {
             img.style.display = i === slideIndex ? 'block' : 'none';
-        });
+        });  
     };
 
     function showPreviousSlide() {

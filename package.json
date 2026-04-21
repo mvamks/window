@@ -6,8 +6,9 @@
 	"homepage": "https://mvamks.github.io/window",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"predeploy": "npm run build",
- 		"deploy": "gh-pages -d dist"
+		"build": "gulp build-prod-js && gulp copy-html && gulp copy-assets",
+  		"predeploy": "npm run build",
+  		"deploy": "gh-pages -d dist"
 	},
 	"author": "",
 	"license": "ISC",

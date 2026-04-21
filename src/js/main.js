@@ -1,4 +1,4 @@
-import './slider';
+ import './slider'; 
 import modals from './modules/modals';
 import tabs from './modules/tabs';
 import forms from './modules/forms';
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
     let modalState = {};
-    let deadline = '2025-07-25';
+    let deadline = '2030-07-25';
 
     changeModalState(modalState);
     modals();

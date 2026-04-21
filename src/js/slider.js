@@ -70,4 +70,14 @@ $(document).ready(function() {
             }
         }]
     });
+
+    $('.decoration_slider').on('afterChange', function(event, slick, currentSlide) {
+        const activeType = $(this).find('.slick-active .no_click').attr('data-type');
+        
+       if (activeType) {
+        // Мы выбираем не клонированный таб и вызываем на нем событие click
+        $(`.no_click[data-type="${activeType}"]:not(.slick-cloned)`).click();
+    }
+        
+    });
 });   

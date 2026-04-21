@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-5 col-sm-3 col-xs-12">
+          <div class="col-md-4 col-sm-3 col-xs-12">
             <div class="logo">
               <div class="logo_img">
                 <img src="assets/img/header/logo.png" alt="#">
@@ -31,7 +31,7 @@
             </div>
           </div>
 
-          <div class="col-md-2 col-sm-3 col-xs-12">
+          <div class="col-md-2 col-sm-3 col-xs-6">
            <div class="header_btn_wrap">
              <div class="header_btn_wrap_block">
                <button class="header_btn text-uppercase text-left popup_engineer_btn">
@@ -46,11 +46,11 @@
               <div class="working_hours_img">
                 <img src="assets/img/header/clock.png" alt="#">
               </div>
-              <p>без выходных <span>9:00 - 18:00</span></p>
+              <p>без выходных <br><span>9:00 - 18:00</span></p>
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-4 col-sm-3 col-xs-12">
             <div class="contact_us">
               <div class="contact_us_wrap">
                 <a href="#"><img src="assets/img/header/phone.png" alt="#">+3 (895) 646-61-71</a>
@@ -76,14 +76,14 @@
 
                <div class="col-sm-3 col-xs-6">
                  <div class="main_features_block">
-                   <img src="assets/img/main/icons/quality.png" alt="">
+                   <img class="small_img" src="assets/img/main/icons/quality.png" alt="">
                    <p>Высокое <br>качество</p>
                  </div>
                </div>
 
                <div class="col-sm-3 col-xs-6">
                  <div class="main_features_block">
-                   <img src="assets/img/main/icons/time.png" alt="">
+                   <img class="small_img" src="assets/img/main/icons/time.png" alt="">
                    <p>Быстрый <br>монтаж</p>
                  </div>
                </div>
@@ -347,16 +347,17 @@
         <!-- Slider -->
         <div class="decoration_slider">
             <div class="decoration_item  wow fadeInUp">
-              <div class="internal_link no_click after_click"><a>Внутренняя отделка</a></div>
+              
+              <div class="no_click after_click" data-type="internal"><a>Внутренняя отделка</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.1s">
-              <div class="external_link no_click"><a>Внешняя отделка</a></div>
+              <div class="no_click" data-type="external"><a>Внешняя отделка</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.2s">
-              <div class="rising_link no_click"><a>Выносное остекление</a></div>
+              <div class="no_click" data-type="rising"><a>Выносное остекление</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.3s">
-              <div class="roof_link no_click"><a>Крыша на балкон</a></div>
+              <div class="no_click" data-type="roof"><a>Крыша на балкон</a></div>
             </div>
         </div>
 
@@ -365,7 +366,7 @@
           <div class="row">
             
             <!-- internal -->
-            <div class="internal">
+            <div class="internal" id="internal">
               <div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 no-padding">
                 <div class="decoration_img">
                   <img src="assets/img/decoration/decoration_img.png" alt="">
@@ -374,35 +375,35 @@
               <!-- Material -->
               <div class="col-lg-5 col-md-8 col-xs-12">
                <div class="row">
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/material/lining.png" alt="#">
                      <h3>Вагонка</h3>
                      <p>600 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/material/plastic.png" alt="#">
                      <h3>Пластиковая вагонка</h3>
                      <p>750 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/material/pvh.png" alt="#">
                      <h3>ПВХ-панели</h3>
                      <p>800 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/material/laminate.png" alt="#">
                      <h3>Настил пола <br>из ламината</h3>
                      <p>1250 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/material/tree.png" alt="#">
                      <h3>Настил пола <br>из дерева</h3>
@@ -423,7 +424,7 @@
             </div> <!-- /internal -->
 
             <!-- external -->
-            <div class="external">
+            <div class="external" id="external">
               <div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 no-padding">
                 <div class="decoration_img">
                   <img src="assets/img/decoration/2/decoration2_img.png" alt="" style="margin-top: 3rem;">
@@ -432,35 +433,35 @@
               <!-- Material -->
               <div class="col-lg-5 col-md-8 col-xs-12">
                <div class="row">
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/2/metal.png" alt="#">
                      <h3>Металлический <br>сайдинг</h3>
                      <p>600 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/2/plastic.png" alt="#">
                      <h3>Пластиковая <br>вагонка</h3>
                      <p>750 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/2/profnastil.png" alt="#">
                      <h3>Профнастил</h3>
                      <p>800 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/2/tree.png" alt="#">
                      <h3>Деревянная <br>вагонка</h3>
                      <p>1250 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/2/vinil.png" alt="#">
                      <h3>Виниловый <br>сайдинг</h3>
@@ -482,7 +483,7 @@
             <!-- .external -->
 
             <!-- rising -->
-            <div class="rising">
+            <div class="rising" id="rising">
               <div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 no-padding">
                 <div class="decoration_img">
                   <img src="assets/img/decoration/3/decoration3_img.jpg" alt="" style="margin-top: 3rem;">
@@ -534,7 +535,7 @@
             <!-- /rising -->
 
             <!-- roof -->
-            <div class="roof">
+            <div class="roof" id="roof">
               <div class="col-lg-3 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 no-padding">
                 <div class="decoration_img">
                   <img src="assets/img/decoration/4/decoration4_img.png" alt="" style="margin-top: 3rem;">
@@ -543,35 +544,35 @@
               <!-- Material -->
               <div class="col-lg-5 col-md-8 col-xs-12">
                <div class="row">
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/4/gofrolist.png" alt="#">
                      <h3>Гофролист</h3>
                      <p>600 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/4/metallocherepitsa.png" alt="#">
                      <h3>Металлочерепица</h3>
                      <p>750 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/4/ondulin.png" alt="#">
                      <h3>Ондулин</h3>
                      <p>800 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/4/polikarbonat.png" alt="#">
                      <h3>Поликарбонат</h3>
                      <p>1250 грн. кв.м.<span>с материалом</span></p>
                    </div>
                  </div>
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                    <div class="decoration_content_material text-center">
                      <img src="assets/img/decoration/4/steklopaket.png" alt="#">
                      <h3>Стеклопакет</h3>
@@ -610,14 +611,14 @@
           <div class="section_header_sub"></div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn"><a href="assets/img/our_works/big_img/1.png"><img class="preview" src="assets/img/our_works/1.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.1s"><a href="assets/img/our_works/big_img/2.png"><img class="preview" src="assets/img/our_works/2.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.2s"><a href="assets/img/our_works/big_img/3.png"><img class="preview" src="assets/img/our_works/3.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.3s"><a href="assets/img/our_works/big_img/4.png"><img class="preview" src="assets/img/our_works/4.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.4s"><a href="assets/img/our_works/big_img/5.png"><img class="preview" src="assets/img/our_works/5.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.5s"><a href="assets/img/our_works/big_img/6.png"><img class="preview" src="assets/img/our_works/6.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.6s"><a href="assets/img/our_works/big_img/7.png"><img class="preview" src="assets/img/our_works/7.png" alt="window"></a></div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center wow fadeIn" data-wow-delay="0.7s"><a href="assets/img/our_works/big_img/8.png"><img class="preview" src="assets/img/our_works/8.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn"><a href="assets/img/our_works/big_img/1.png"><img class="preview" src="assets/img/our_works/1.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.1s"><a href="assets/img/our_works/big_img/2.png"><img class="preview" src="assets/img/our_works/2.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.2s"><a href="assets/img/our_works/big_img/3.png"><img class="preview" src="assets/img/our_works/3.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.3s"><a href="assets/img/our_works/big_img/4.png"><img class="preview" src="assets/img/our_works/4.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.4s"><a href="assets/img/our_works/big_img/5.png"><img class="preview" src="assets/img/our_works/5.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.5s"><a href="assets/img/our_works/big_img/6.png"><img class="preview" src="assets/img/our_works/6.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.6s"><a href="assets/img/our_works/big_img/7.png"><img class="preview" src="assets/img/our_works/7.png" alt="window"></a></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 text-center wow fadeIn" data-wow-delay="0.7s"><a href="assets/img/our_works/big_img/8.png"><img class="preview" src="assets/img/our_works/8.png" alt="window"></a></div>
         </div>
       </div>
     </section>
@@ -676,7 +677,7 @@
         <div class="section_header payment_header">
           <h2>Вы можете оплатить наши услуги:</h2>
         </div>
-        <div class="row">
+        <div class="row item">
           <div class="col-md-4 col-sm-4 wow bounceIn">
             <div class="payment_item">
               <div class="payment_img">
@@ -711,7 +712,8 @@
         <div class="row">
           <div class="col-lg-5 col-md-6 wow fadeInLeft">
             <h2 class="sale_title">Акция - 60%</h2>
-            <p class="sale_subtitle">Успей сэкономить на остеклении! Только до 18 декабря!</p>
+            <p class="sale_subtitle">Успей сэкономить на остеклении!</p>
+            <p class="sale_subtitle">Только до 18 декабря!</p>
             <div class="timer1" id="timer">
                 <p><h4>ДО ЗАВЕРШЕНИЯ АКЦИИ:</h4></p>
                 <div class="container1">
@@ -744,8 +746,8 @@
           <div class="section_header_sub"></div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 wow fadeInLeft">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81316.30864362943!2d30.529333576893297!3d50.43859264488848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4dbe4e2fa2473%3A0xf370aa4ccce1c350!2z0KHQotCeIFZCLnNlcnZpY2U!5e0!3m2!1sru!2sua!4v1762797191749!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-lg-6 col-md-6 col-sm-10 wow fadeInLeft">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81316.30864362943!2d30.529333576893297!3d50.43859264488848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4dbe4e2fa2473%3A0xf370aa4ccce1c350!2z0KHQotCeIFZCLnNlcnZpY2U!5e0!3m2!1sru!2sua!4v1762797191749!5m2!1sru!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 wow fadeInRight">
             <div class="contacts_info">
